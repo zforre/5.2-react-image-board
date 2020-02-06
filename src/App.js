@@ -113,6 +113,7 @@ class ImageBoard extends Component {
   render() {
     return(
       <div>
+        <h1>Upload an Image</h1>
         <ImageForm newImage={this.newImage}/>
         <ImageList images={this.state.images}/>
       </div>
